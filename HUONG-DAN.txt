@@ -1,0 +1,31 @@
+NASA ADAPTING FARMS - HUONG DAN CHAY WEB
+========================================
+
+CACH 1 - XEM NHANH (khong can cai gi)
+  Nhap dup file index.html. Web mo trong trinh duyet.
+  Chay duoc: ban do ruong, bieu do thoi tiet, goi y tuoi tieu, doi VI/EN,
+  thu gia dinh, du lieu NASA truc tiep (can Internet).
+  Tro ly chi dung cau tra loi mau. Khong co ma QR.
+
+CACH 2 - DAY DU (Windows)
+  1. Cai Node.js ban LTS tai https://nodejs.org (chi can lam 1 lan).
+  2. Giai nen file zip ra mot thu muc (KHONG chay truc tiep trong file zip).
+  3. Nhap dup "Start Dashboard.bat".
+     Lan dau se tu cai dat (can Internet, khoang 1 phut).
+     Trinh duyet tu mo http://localhost:5173/
+  4. Muon dung tro ly AI that: mo file .env.local bang Notepad,
+     dan khoa Google AI Studio (Gemini) cua ban sau dau "=", luu lai,
+     roi chay lai "Start Dashboard.bat".
+     Khong co khoa thi tro ly van tra loi bang cau tra loi mau.
+  5. Mo tren dien thoai: dung chung Wi-Fi, bam "Chia se" tren web va quet ma QR.
+  Tat web: dong cua so den (cmd).
+
+MAC / LINUX
+  Mo index.html, hoac mo Terminal trong thu muc nay va chay:
+    npm install --omit=dev
+    npm start
+  roi vao http://localhost:5173/
+
+LUU Y
+  - File .env.local bi an tren mot so may: trong File Explorer chon View > Show > Hidden items.
+  - Khong gui khoa API cua ban cho nguoi khac.
